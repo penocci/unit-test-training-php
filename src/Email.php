@@ -1,9 +1,23 @@
 <?php
-
+/**
+ * @file Employee.php
+ * @author Babas
+ * @version 1.1
+ */
+/**
+ * @class Email Email.php
+ */
 final class Email
 {
+    /**
+     * @attribut string $email email de l'employé
+     */
     private $email;
 
+    /**
+     * Employee constructor.
+     * @param $email string
+     */
     private function __construct(string $email)
     {
         $this->ensureIsValidEmail($email);

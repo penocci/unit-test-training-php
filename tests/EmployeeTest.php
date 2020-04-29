@@ -1,7 +1,14 @@
 <?php
+/**
+ * @file Employee.php
+ * @author Babas
+ * @version 1.1
+ */
 use PHPUnit\Framework\TestCase;
 
-
+/**
+ * @class Employee Employee.php
+ */
 class EmployeeTest extends TestCase
 {
 
@@ -17,8 +24,5 @@ class EmployeeTest extends TestCase
         $emp->setGrossMonthlySalary(1000);
         $this->assertEquals(550, $emp->getNetSalary());
     }
-    public function GetNetSalary()
-    {
-       
-    }
+
 }
