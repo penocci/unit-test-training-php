@@ -17,4 +17,8 @@ class EmployeeTest extends TestCase
         $emp->setGrossMonthlySalary(1000);
         $this->assertEquals(550, $emp->getNetSalary());
     }
+    public function GetNetSalary()
+    {
+       
+    }
 }
